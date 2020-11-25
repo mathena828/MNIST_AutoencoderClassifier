@@ -1,1 +1,1 @@
-# Building a Self-Supervised MNIST Classifier with Autoencoders
+# Self-Supervised MNIST Classifier with Autoencoders
