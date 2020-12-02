@@ -9,7 +9,7 @@ The decoder **reconstructs the input** based on the compressed representations o
 ### K-Means
 The K-means algorithm groups similar data points into *k* clusters based on the arithmetic mean or **centroid** nearest to it. The objective function is defined as:
 
-![K-Means Objective Function] (https://www.saedsayad.com/images/Clustering_kmeans_c.pngLarge)
+![K-Means Objective Function](https://www.saedsayad.com/images/Clustering_kmeans_c.png)
 
 ### Hungarian Algorithm
 The Hungarian Algorithm efficiently assigns labels to each cluster. It involves subtracting the **row minima** then the **column minima** from each row and column respectively. A minimum number of horizontal and vertical lines must be drawn over rows and columns with **0 entries**. An optimal assignment can be found if there are *n* lines required. Otherwise, the smallest uncovered element is subtracted from all the other uncovered elects and added to the covered ones.
